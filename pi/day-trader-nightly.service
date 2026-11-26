@@ -1,0 +1,12 @@
+[Unit]
+Description=$100k paper month: nightly pool rebuild, summary and push
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=cameraadmin
+WorkingDirectory=/home/cameraadmin/day-trader-runs
+ExecStart=/bin/bash /home/cameraadmin/day-trader-runs/pi/nightly.sh
+TimeoutStartSec=3h
+Nice=10

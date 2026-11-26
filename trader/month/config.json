@@ -1,0 +1,20 @@
+{
+ "start_date": "2026-11-30",
+ "start_equity": 100000.0,
+ "or_bars": 3,
+ "risk_pct": 0.5,
+ "max_position_pct": 25.0,
+ "max_gross": 2.0,
+ "max_open": 8,
+ "min_risk_usd": 0.1,
+ "half_at_r": 1.0,
+ "overnight_target_r": 3.0,
+ "overnight_close_frac": 0.25,
+ "max_overnight": 4,
+ "max_overnight_gross": 1.0,
+ "max_hold_days": 5,
+ "day_stop_pct": 2.0,
+ "margin_apr": 8.0,
+ "borrow_apr": 3.0,
+ "spread": 0.01
+}

@@ -1,0 +1,8 @@
+[Unit]
+Description=Push the reports every 30 minutes while the market is open
+
+[Timer]
+OnCalendar=Mon..Fri 10..15:00,30 America/New_York
+
+[Install]
+WantedBy=timers.target

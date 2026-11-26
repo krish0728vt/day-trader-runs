@@ -1,0 +1,9 @@
+[Unit]
+Description=Start the paper trading day at 9:31 New York time
+
+[Timer]
+OnCalendar=Mon..Fri 09:31 America/New_York
+Persistent=true
+
+[Install]
+WantedBy=timers.target

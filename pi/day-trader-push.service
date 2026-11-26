@@ -1,0 +1,10 @@
+[Unit]
+Description=Push the paper month's reports to GitHub
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=cameraadmin
+WorkingDirectory=/home/cameraadmin/day-trader-runs
+ExecStart=/bin/bash /home/cameraadmin/day-trader-runs/pi/push.sh intraday

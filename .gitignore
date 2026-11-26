@@ -1,0 +1,7 @@
+__pycache__/
+*.tmp
+trader/history/
+trader/sip/daily.json.gz
+trader/paper-live/
+trader/learning/
+*.tar.gz

@@ -1,0 +1,14 @@
+[Unit]
+Description=$100k paper month: live paper trading day
+Wants=network-online.target
+After=network-online.target time-sync.target
+
+[Service]
+Type=oneshot
+User=cameraadmin
+WorkingDirectory=/home/cameraadmin/day-trader-runs
+ExecStart=/bin/bash /home/cameraadmin/day-trader-runs/pi/day.sh
+TimeoutStartSec=8h
+Restart=on-failure
+RestartSec=120
+Nice=5
