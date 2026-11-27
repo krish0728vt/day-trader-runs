@@ -1,10 +1,10 @@
 {
  "date": "2026-11-27",
  "equity_start": 100000.0,
- "equity_end": 99180.8,
+ "equity_end": 99669.37,
  "cash_end": 97649.19,
- "pnl": -819.2,
- "ret_pct": -0.819,
+ "pnl": -330.63,
+ "ret_pct": -0.331,
  "closed": [
   {
    "symbol": "MRK",
@@ -95,8 +95,8 @@
    "sized_by": "risk",
    "mfe": 0.5848293647080843,
    "mae": 0.9441104363538544,
-   "mark": 218.75,
-   "unrealized": -414.81,
+   "mark": 216.8000030517578,
+   "unrealized": -221.76,
    "legs_prev": []
   },
   {
@@ -118,8 +118,8 @@
    "sized_by": "position cap",
    "mfe": 0.6875023841858008,
    "mae": 0.3124966621398828,
-   "mark": 36.084999084472656,
-   "unrealized": 72.87,
+   "mark": 36.150001525878906,
+   "unrealized": 117.98,
    "legs_prev": []
   },
   {
@@ -141,8 +141,8 @@
    "sized_by": "risk",
    "mfe": 0.35282972803655704,
    "mae": 0.2886785543189854,
-   "mark": 184.5500030517578,
-   "unrealized": 57.34,
+   "mark": 184.5800018310547,
+   "unrealized": 60.16,
    "legs_prev": []
   },
   {
@@ -164,8 +164,8 @@
    "sized_by": "position cap",
    "mfe": 0.9647051642922875,
    "mae": 0.3058852251838155,
-   "mark": 92.75,
-   "unrealized": 48.42,
+   "mark": 92.88259887695312,
+   "unrealized": 12.75,
    "legs_prev": []
   },
   {
@@ -185,10 +185,10 @@
    "rv": 4.01,
    "atr": 0.619,
    "sized_by": "position cap",
-   "mfe": 0.1153856424184965,
+   "mfe": 0.23076923076923267,
    "mae": 0.8846152378962571,
-   "mark": 13.154999732971191,
-   "unrealized": -181.83,
+   "mark": 13.005000114440918,
+   "unrealized": 105.27,
    "legs_prev": []
   },
   {
@@ -208,10 +208,10 @@
    "rv": 2.59,
    "atr": 1.6481,
    "sized_by": "position cap",
-   "mfe": 0.5991146121404848,
+   "mfe": 0.7035427937465412,
    "mae": 0.26991393502834826,
-   "mark": 76.66500091552734,
-   "unrealized": 198.44,
+   "mark": 76.66999816894531,
+   "unrealized": 200.08,
    "legs_prev": []
   },
   {
@@ -233,8 +233,8 @@
    "sized_by": "risk",
    "mfe": 0.05682026256214359,
    "mae": 0.32954354719682305,
-   "mark": 16.934999465942383,
-   "unrealized": -85.2,
+   "mark": 16.915000915527344,
+   "unrealized": -62.48,
    "legs_prev": []
   },
   {
@@ -256,8 +256,8 @@
    "sized_by": "position cap",
    "mfe": 0.6404511526729303,
    "mae": 0.32584166794680286,
-   "mark": 88.71499633789062,
-   "unrealized": 38.07,
+   "mark": 88.61499786376953,
+   "unrealized": 9.87,
    "legs_prev": []
   }
  ],
@@ -294,7 +294,7 @@
    "symbol": "AEM",
    "side": "long",
    "time": "11:55 AM",
-   "price": 171.38,
+   "price": 171.51,
    "reason": "already 8 positions open"
   },
   {
@@ -303,19 +303,26 @@
    "time": "11:55 AM",
    "price": 36.35,
    "reason": "already 8 positions open"
+  },
+  {
+   "symbol": "ABBV",
+   "side": "long",
+   "time": "12:25 PM",
+   "price": 293.01,
+   "reason": "already 8 positions open"
   }
  ],
  "n_opened": 10,
  "stopped_for_day": false,
- "long_value": 92554.44,
- "short_value": 91022.83,
+ "long_value": 92575.81,
+ "short_value": 90555.63,
  "charges": {
   "margin_interest": 0.0,
   "borrow_fee": 0.0,
   "nights": 0
  },
- "gross_end": 183577.27,
- "last_slot": 28,
+ "gross_end": 183131.44,
+ "last_slot": 34,
  "final": false,
  "picks": [
   [
@@ -424,8 +431,8 @@
  "picked_at": "09:36",
  "pick_note": "499 in the pool, 57 checked closely",
  "spy": {
-  "close": 727.739990234375,
-  "equity": 100256.19
+  "close": 726.9500122070312,
+  "equity": 100147.96
  },
  "spy_start": 100000.0
 }
