@@ -1,10 +1,10 @@
 {
  "date": "2026-11-27",
  "equity_start": 100000.0,
- "equity_end": 99669.37,
- "cash_end": 97649.19,
- "pnl": -330.63,
- "ret_pct": -0.331,
+ "equity_end": 99871.41,
+ "cash_end": 99766.66,
+ "pnl": -128.59,
+ "ret_pct": -0.129,
  "closed": [
   {
    "symbol": "MRK",
@@ -73,123 +73,6 @@
    "pnl": -372.84,
    "costs": 4.78,
    "r": -1.0
-  }
- ],
- "positions": [
-  {
-   "symbol": "TER",
-   "side": -1,
-   "opened": "2026-11-27",
-   "entry_slot": 3,
-   "entry_time": "9:50 AM",
-   "shares": 99,
-   "orig_shares": 99,
-   "entry": 214.56,
-   "stop": 219.57,
-   "stop0": 219.57,
-   "risk": 5.01,
-   "half": false,
-   "days_held": 0,
-   "rv": 2.85,
-   "atr": 23.0698,
-   "sized_by": "risk",
-   "mfe": 0.5848293647080843,
-   "mae": 0.9441104363538544,
-   "mark": 216.8000030517578,
-   "unrealized": -221.76,
-   "legs_prev": []
-  },
-  {
-   "symbol": "IBN",
-   "side": 1,
-   "opened": "2026-11-27",
-   "entry_slot": 3,
-   "entry_time": "9:50 AM",
-   "shares": 694,
-   "orig_shares": 694,
-   "entry": 35.98,
-   "stop": 35.66,
-   "stop0": 35.66,
-   "risk": 0.32,
-   "half": false,
-   "days_held": 0,
-   "rv": 1.67,
-   "atr": 0.7876,
-   "sized_by": "position cap",
-   "mfe": 0.6875023841858008,
-   "mae": 0.3124966621398828,
-   "mark": 36.150001525878906,
-   "unrealized": 117.98,
-   "legs_prev": []
-  },
-  {
-   "symbol": "ANF",
-   "side": 1,
-   "opened": "2026-11-27",
-   "entry_slot": 3,
-   "entry_time": "9:50 AM",
-   "shares": 94,
-   "orig_shares": 94,
-   "entry": 183.94,
-   "stop": 178.64,
-   "stop0": 178.64,
-   "risk": 5.3,
-   "half": false,
-   "days_held": 0,
-   "rv": 1.49,
-   "atr": 10.3903,
-   "sized_by": "risk",
-   "mfe": 0.35282972803655704,
-   "mae": 0.2886785543189854,
-   "mark": 184.5800018310547,
-   "unrealized": 60.16,
-   "legs_prev": []
-  },
-  {
-   "symbol": "NOW",
-   "side": -1,
-   "opened": "2026-11-27",
-   "entry_slot": 5,
-   "entry_time": "10:00 AM",
-   "shares": 269,
-   "orig_shares": 269,
-   "entry": 92.93,
-   "stop": 93.78,
-   "stop0": 93.78,
-   "risk": 0.85,
-   "half": false,
-   "days_held": 0,
-   "rv": 1.39,
-   "atr": 4.5782,
-   "sized_by": "position cap",
-   "mfe": 0.9647051642922875,
-   "mae": 0.3058852251838155,
-   "mark": 92.88259887695312,
-   "unrealized": 12.75,
-   "legs_prev": []
-  },
-  {
-   "symbol": "NU",
-   "side": -1,
-   "opened": "2026-11-27",
-   "entry_slot": 6,
-   "entry_time": "10:05 AM",
-   "shares": 1914,
-   "orig_shares": 1914,
-   "entry": 13.06,
-   "stop": 13.32,
-   "stop0": 13.32,
-   "risk": 0.26,
-   "half": false,
-   "days_held": 0,
-   "rv": 4.01,
-   "atr": 0.619,
-   "sized_by": "position cap",
-   "mfe": 0.23076923076923267,
-   "mae": 0.8846152378962571,
-   "mark": 13.005000114440918,
-   "unrealized": 105.27,
-   "legs_prev": []
   },
   {
    "symbol": "MO",
@@ -197,7 +80,7 @@
    "opened": "2026-11-27",
    "entry_slot": 6,
    "entry_time": "10:05 AM",
-   "shares": 328,
+   "shares": 0,
    "orig_shares": 328,
    "entry": 76.06,
    "stop": 74.93,
@@ -208,11 +91,56 @@
    "rv": 2.59,
    "atr": 1.6481,
    "sized_by": "position cap",
-   "mfe": 0.7035427937465412,
+   "legs": [
+    {
+     "date": "2026-11-27",
+     "time": "12:55 PM",
+     "slot": 40,
+     "shares": 328,
+     "price": 76.78,
+     "why": "closed at the bell"
+    }
+   ],
+   "carried": false,
+   "mfe": 0.7522156301852857,
    "mae": 0.26991393502834826,
-   "mark": 76.66999816894531,
-   "unrealized": 200.08,
-   "legs_prev": []
+   "pnl": 236.16,
+   "costs": 6.56,
+   "r": 0.64
+  },
+  {
+   "symbol": "NU",
+   "side": -1,
+   "opened": "2026-11-27",
+   "entry_slot": 6,
+   "entry_time": "10:05 AM",
+   "shares": 0,
+   "orig_shares": 1914,
+   "entry": 13.06,
+   "stop": 13.32,
+   "stop0": 13.32,
+   "risk": 0.26,
+   "half": false,
+   "days_held": 0,
+   "rv": 4.01,
+   "atr": 0.619,
+   "sized_by": "position cap",
+   "legs": [
+    {
+     "date": "2026-11-27",
+     "time": "12:55 PM",
+     "slot": 40,
+     "shares": 1914,
+     "price": 12.95,
+     "why": "closed at the bell"
+    }
+   ],
+   "carried": false,
+   "mfe": 0.5384612450232892,
+   "mae": 0.8846152378962571,
+   "pnl": 210.54,
+   "costs": 38.28,
+   "r": 0.42
   },
   {
    "symbol": "PBR",
@@ -220,7 +148,7 @@
    "opened": "2026-11-27",
    "entry_slot": 7,
    "entry_time": "10:10 AM",
-   "shares": 1136,
+   "shares": 0,
    "orig_shares": 1136,
    "entry": 16.86,
    "stop": 17.3,
@@ -231,11 +159,56 @@
    "rv": 3.64,
    "atr": 0.5721,
    "sized_by": "risk",
-   "mfe": 0.05682026256214359,
+   "legs": [
+    {
+     "date": "2026-11-27",
+     "time": "12:55 PM",
+     "slot": 40,
+     "shares": 1136,
+     "price": 16.81,
+     "why": "closed at the bell"
+    }
+   ],
+   "carried": false,
+   "mfe": 0.15908882834694474,
    "mae": 0.32954354719682305,
-   "mark": 16.915000915527344,
-   "unrealized": -62.48,
-   "legs_prev": []
+   "pnl": 56.8,
+   "costs": 22.72,
+   "r": 0.11
+  },
+  {
+   "symbol": "ANF",
+   "side": 1,
+   "opened": "2026-11-27",
+   "entry_slot": 3,
+   "entry_time": "9:50 AM",
+   "shares": 0,
+   "orig_shares": 94,
+   "entry": 183.94,
+   "stop": 178.64,
+   "stop0": 178.64,
+   "risk": 5.3,
+   "half": false,
+   "days_held": 0,
+   "rv": 1.49,
+   "atr": 10.3903,
+   "sized_by": "risk",
+   "legs": [
+    {
+     "date": "2026-11-27",
+     "time": "12:55 PM",
+     "slot": 40,
+     "shares": 94,
+     "price": 183.27,
+     "why": "closed at the bell"
+    }
+   ],
+   "carried": false,
+   "mfe": 0.35282972803655704,
+   "mae": 0.307547630454009,
+   "pnl": -62.98,
+   "costs": 1.88,
+   "r": -0.13
   },
   {
    "symbol": "ECHO",
@@ -243,7 +216,7 @@
    "opened": "2026-11-27",
    "entry_slot": 13,
    "entry_time": "10:40 AM",
-   "shares": 282,
+   "shares": 0,
    "orig_shares": 282,
    "entry": 88.58,
    "stop": 87.69,
@@ -254,11 +227,122 @@
    "rv": 15.36,
    "atr": 5.3749,
    "sized_by": "position cap",
+   "legs": [
+    {
+     "date": "2026-11-27",
+     "time": "12:55 PM",
+     "slot": 40,
+     "shares": 282,
+     "price": 88.38,
+     "why": "closed at the bell"
+    }
+   ],
+   "carried": false,
    "mfe": 0.6404511526729303,
-   "mae": 0.32584166794680286,
-   "mark": 88.61499786376953,
-   "unrealized": 9.87,
-   "legs_prev": []
+   "mae": 0.651685393258425,
+   "pnl": -56.4,
+   "costs": 5.64,
+   "r": -0.22
+  },
+  {
+   "symbol": "TER",
+   "side": -1,
+   "opened": "2026-11-27",
+   "entry_slot": 3,
+   "entry_time": "9:50 AM",
+   "shares": 0,
+   "orig_shares": 99,
+   "entry": 214.56,
+   "stop": 219.57,
+   "stop0": 219.57,
+   "risk": 5.01,
+   "half": false,
+   "days_held": 0,
+   "rv": 2.85,
+   "atr": 23.0698,
+   "sized_by": "risk",
+   "legs": [
+    {
+     "date": "2026-11-27",
+     "time": "12:55 PM",
+     "slot": 40,
+     "shares": 99,
+     "price": 217.63,
+     "why": "closed at the bell"
+    }
+   ],
+   "carried": false,
+   "mfe": 0.5848293647080843,
+   "mae": 0.9441104363538544,
+   "pnl": -303.93,
+   "costs": 1.98,
+   "r": -0.61
+  }
+ ],
+ "positions": [
+  {
+   "symbol": "IBN",
+   "side": 1,
+   "opened": "2026-11-27",
+   "entry_slot": 3,
+   "entry_time": "9:50 AM",
+   "shares": 347,
+   "orig_shares": 694,
+   "entry": 35.98,
+   "stop": 35.98,
+   "stop0": 35.66,
+   "risk": 0.32,
+   "half": true,
+   "days_held": 1,
+   "rv": 1.67,
+   "atr": 0.7876,
+   "sized_by": "position cap",
+   "mfe": 1.0156259536743262,
+   "mae": 0.3124966621398828,
+   "mark": 36.25,
+   "unrealized": 93.69,
+   "legs_prev": [
+    {
+     "date": "2026-11-27",
+     "time": "12:55 PM",
+     "slot": 40,
+     "shares": 347,
+     "price": 36.3,
+     "why": "half at 1R"
+    }
+   ]
+  },
+  {
+   "symbol": "NOW",
+   "side": -1,
+   "opened": "2026-11-27",
+   "entry_slot": 5,
+   "entry_time": "10:00 AM",
+   "shares": 135,
+   "orig_shares": 269,
+   "entry": 92.93,
+   "stop": 92.93,
+   "stop0": 93.78,
+   "risk": 0.85,
+   "half": true,
+   "days_held": 1,
+   "rv": 1.39,
+   "atr": 4.5782,
+   "sized_by": "position cap",
+   "mfe": 1.0458819221047875,
+   "mae": 0.3058852251838155,
+   "mark": 92.4000015258789,
+   "unrealized": 71.55,
+   "legs_prev": [
+    {
+     "date": "2026-11-27",
+     "time": "12:55 PM",
+     "slot": 40,
+     "shares": 134,
+     "price": 92.08,
+     "why": "half at 1R"
+    }
+   ]
   }
  ],
  "skipped": [
@@ -314,16 +398,16 @@
  ],
  "n_opened": 10,
  "stopped_for_day": false,
- "long_value": 92575.81,
- "short_value": 90555.63,
+ "long_value": 12578.75,
+ "short_value": 12474.0,
  "charges": {
   "margin_interest": 0.0,
-  "borrow_fee": 0.0,
-  "nights": 0
+  "borrow_fee": 3.12,
+  "nights": 3
  },
- "gross_end": 183131.44,
- "last_slot": 34,
- "final": false,
+ "gross_end": 25052.75,
+ "last_slot": 40,
+ "final": true,
  "picks": [
   [
    "ECHO",
@@ -431,8 +515,8 @@
  "picked_at": "09:36",
  "pick_note": "499 in the pool, 57 checked closely",
  "spy": {
-  "close": 726.9500122070312,
-  "equity": 100147.96
+  "close": 726.52099609375,
+  "equity": 100089.19
  },
  "spy_start": 100000.0
 }
