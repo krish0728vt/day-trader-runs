@@ -1,10 +1,10 @@
 {
  "date": "2026-11-27",
  "equity_start": 100000.0,
- "equity_end": 99286.93,
+ "equity_end": 99327.12,
  "cash_end": 97649.19,
- "pnl": -713.07,
- "ret_pct": -0.713,
+ "pnl": -672.88,
+ "ret_pct": -0.673,
  "closed": [
   {
    "symbol": "MRK",
@@ -95,8 +95,8 @@
    "sized_by": "risk",
    "mfe": 0.5848293647080843,
    "mae": 0.7135717578514841,
-   "mark": 214.6999969482422,
-   "unrealized": -13.86,
+   "mark": 217.7100067138672,
+   "unrealized": -311.85,
    "legs_prev": []
   },
   {
@@ -116,10 +116,10 @@
    "rv": 1.67,
    "atr": 0.7876,
    "sized_by": "position cap",
-   "mfe": 0.578127861022959,
+   "mfe": 0.6875023841858008,
    "mae": 0.3124966621398828,
-   "mark": 36.130001068115234,
-   "unrealized": 104.1,
+   "mark": 36.154998779296875,
+   "unrealized": 121.45,
    "legs_prev": []
   },
   {
@@ -141,8 +141,8 @@
    "sized_by": "risk",
    "mfe": 0.35282972803655704,
    "mae": 0.2886785543189854,
-   "mark": 183.7899932861328,
-   "unrealized": -14.1,
+   "mark": 184.76939392089844,
+   "unrealized": 77.96,
    "legs_prev": []
   },
   {
@@ -162,10 +162,10 @@
    "rv": 1.39,
    "atr": 4.5782,
    "sized_by": "position cap",
-   "mfe": 0.8176463407628757,
+   "mfe": 0.9647051642922875,
    "mae": 0.3058852251838155,
-   "mark": 92.79000091552734,
-   "unrealized": 37.66,
+   "mark": 92.43000030517578,
+   "unrealized": 134.5,
    "legs_prev": []
   },
   {
@@ -186,9 +186,9 @@
    "atr": 0.619,
    "sized_by": "position cap",
    "mfe": 0.1153856424184965,
-   "mae": 0.846152819119965,
-   "mark": 13.21500015258789,
-   "unrealized": -296.67,
+   "mae": 0.8846152378962571,
+   "mark": 13.1850004196167,
+   "unrealized": -239.25,
    "legs_prev": []
   },
   {
@@ -208,10 +208,10 @@
    "rv": 2.59,
    "atr": 1.6481,
    "sized_by": "position cap",
-   "mfe": 0.3982319789650146,
+   "mfe": 0.5132737961490578,
    "mae": 0.26991393502834826,
-   "mark": 76.36000061035156,
-   "unrealized": 98.4,
+   "mark": 76.48999786376953,
+   "unrealized": 141.04,
    "legs_prev": []
   },
   {
@@ -233,8 +233,8 @@
    "sized_by": "risk",
    "mfe": 0.05682026256214359,
    "mae": 0.32954354719682305,
-   "mark": 16.854999542236328,
-   "unrealized": 5.68,
+   "mark": 16.924999237060547,
+   "unrealized": -73.84,
    "legs_prev": []
   },
   {
@@ -256,8 +256,8 @@
    "sized_by": "position cap",
    "mfe": 0.21347937423191904,
    "mae": 0.32584166794680286,
-   "mark": 88.29000091552734,
-   "unrealized": -81.78,
+   "mark": 88.68499755859375,
+   "unrealized": 29.61,
    "legs_prev": []
   }
  ],
@@ -279,15 +279,15 @@
  ],
  "n_opened": 10,
  "stopped_for_day": false,
- "long_value": 92294.34,
- "short_value": 90656.6,
+ "long_value": 92557.78,
+ "short_value": 90879.85,
  "charges": {
   "margin_interest": 0.0,
   "borrow_fee": 0.0,
   "nights": 0
  },
- "gross_end": 182950.94,
- "last_slot": 16,
+ "gross_end": 183437.63,
+ "last_slot": 22,
  "final": false,
  "picks": [
   [
