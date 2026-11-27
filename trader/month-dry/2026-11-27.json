@@ -1,10 +1,10 @@
 {
  "date": "2026-11-27",
  "equity_start": 100000.0,
- "equity_end": 99327.12,
+ "equity_end": 99180.8,
  "cash_end": 97649.19,
- "pnl": -672.88,
- "ret_pct": -0.673,
+ "pnl": -819.2,
+ "ret_pct": -0.819,
  "closed": [
   {
    "symbol": "MRK",
@@ -94,9 +94,9 @@
    "atr": 23.0698,
    "sized_by": "risk",
    "mfe": 0.5848293647080843,
-   "mae": 0.7135717578514841,
-   "mark": 217.7100067138672,
-   "unrealized": -311.85,
+   "mae": 0.9441104363538544,
+   "mark": 218.75,
+   "unrealized": -414.81,
    "legs_prev": []
   },
   {
@@ -118,8 +118,8 @@
    "sized_by": "position cap",
    "mfe": 0.6875023841858008,
    "mae": 0.3124966621398828,
-   "mark": 36.154998779296875,
-   "unrealized": 121.45,
+   "mark": 36.084999084472656,
+   "unrealized": 72.87,
    "legs_prev": []
   },
   {
@@ -141,8 +141,8 @@
    "sized_by": "risk",
    "mfe": 0.35282972803655704,
    "mae": 0.2886785543189854,
-   "mark": 184.76939392089844,
-   "unrealized": 77.96,
+   "mark": 184.5500030517578,
+   "unrealized": 57.34,
    "legs_prev": []
   },
   {
@@ -164,8 +164,8 @@
    "sized_by": "position cap",
    "mfe": 0.9647051642922875,
    "mae": 0.3058852251838155,
-   "mark": 92.43000030517578,
-   "unrealized": 134.5,
+   "mark": 92.75,
+   "unrealized": 48.42,
    "legs_prev": []
   },
   {
@@ -187,8 +187,8 @@
    "sized_by": "position cap",
    "mfe": 0.1153856424184965,
    "mae": 0.8846152378962571,
-   "mark": 13.1850004196167,
-   "unrealized": -239.25,
+   "mark": 13.154999732971191,
+   "unrealized": -181.83,
    "legs_prev": []
   },
   {
@@ -208,10 +208,10 @@
    "rv": 2.59,
    "atr": 1.6481,
    "sized_by": "position cap",
-   "mfe": 0.5132737961490578,
+   "mfe": 0.5991146121404848,
    "mae": 0.26991393502834826,
-   "mark": 76.48999786376953,
-   "unrealized": 141.04,
+   "mark": 76.66500091552734,
+   "unrealized": 198.44,
    "legs_prev": []
   },
   {
@@ -233,8 +233,8 @@
    "sized_by": "risk",
    "mfe": 0.05682026256214359,
    "mae": 0.32954354719682305,
-   "mark": 16.924999237060547,
-   "unrealized": -73.84,
+   "mark": 16.934999465942383,
+   "unrealized": -85.2,
    "legs_prev": []
   },
   {
@@ -254,10 +254,10 @@
    "rv": 15.36,
    "atr": 5.3749,
    "sized_by": "position cap",
-   "mfe": 0.21347937423191904,
+   "mfe": 0.6404511526729303,
    "mae": 0.32584166794680286,
-   "mark": 88.68499755859375,
-   "unrealized": 29.61,
+   "mark": 88.71499633789062,
+   "unrealized": 38.07,
    "legs_prev": []
   }
  ],
@@ -275,19 +275,47 @@
    "time": "10:15 AM",
    "price": 115.17,
    "reason": "already 8 positions open"
+  },
+  {
+   "symbol": "PAAS",
+   "side": "long",
+   "time": "11:30 AM",
+   "price": 34.37,
+   "reason": "already 8 positions open"
+  },
+  {
+   "symbol": "PDD",
+   "side": "short",
+   "time": "11:30 AM",
+   "price": 88.99,
+   "reason": "already 8 positions open"
+  },
+  {
+   "symbol": "AEM",
+   "side": "long",
+   "time": "11:55 AM",
+   "price": 171.38,
+   "reason": "already 8 positions open"
+  },
+  {
+   "symbol": "B",
+   "side": "long",
+   "time": "11:55 AM",
+   "price": 36.35,
+   "reason": "already 8 positions open"
   }
  ],
  "n_opened": 10,
  "stopped_for_day": false,
- "long_value": 92557.78,
- "short_value": 90879.85,
+ "long_value": 92554.44,
+ "short_value": 91022.83,
  "charges": {
   "margin_interest": 0.0,
   "borrow_fee": 0.0,
   "nights": 0
  },
- "gross_end": 183437.63,
- "last_slot": 22,
+ "gross_end": 183577.27,
+ "last_slot": 28,
  "final": false,
  "picks": [
   [
@@ -396,8 +424,8 @@
  "picked_at": "09:36",
  "pick_note": "499 in the pool, 57 checked closely",
  "spy": {
-  "close": 724.9299926757812,
-  "equity": 99871.22
+  "close": 727.739990234375,
+  "equity": 100256.19
  },
  "spy_start": 100000.0
 }
